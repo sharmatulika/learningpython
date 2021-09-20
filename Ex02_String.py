@@ -1,0 +1,11 @@
+print("this is an exercise in string manipulation 01")
+first_name=input("Please enter your first name")
+middle_name=input("Please enter your middle name")
+last_name=input("Please enter your last name")
+print("Your initiatils are :",first_name[:1],middle_name[:1],last_name[:1])
+print("############################")
+print("this is an exercise in string manipulation 02")
+lotnumber="0031-00901-00027"
+print("country code:",lotnumber[:3])
+print("product code:",lotnumber[4:9])
+print("country code:",lotnumber[10:14])
